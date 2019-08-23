@@ -596,7 +596,7 @@ s0.parentNode.insertBefore(s1,s0);
 					<br>
 					<div class="contact-form-instruction" style="color:#012046; font-size: 18px; font-family: 'gill', sans-serif">Kindly fill out the fields below and we will send a profoma invoice to the email address you provide. Click <a href="#">here</a> to view list of service plans.</div>
 					<div class="contact_form_container">
-						<form method="post" action="http://localhost:5001/message/add" class="contact_form" >
+						<form method="post" action="POST" data-netlify="true" class="contact_form" >
 							<div class="row">
 								<div class="col-md-6">
 									<input type="text" class="input_item" placeholder="Your Name" required="required" name="name">
@@ -610,9 +610,10 @@ s0.parentNode.insertBefore(s1,s0);
 								<div class="col-md-6">
 									<select class="dropdown_item input_item" placeholder="Desired Website" name="desiredWebsite">
 										<option>--Select Desired Website--</option>
-										<option>Corporate</option>
 										<option>Personal</option>
-                                        <option>VIRTECH should use her descretion</option>
+										<option>Corporate</option>
+										<option>Ecommerce</option>
+                                        <option>Others</option>
 									</select>
 								</div>
 								<div class="col-md-12">
