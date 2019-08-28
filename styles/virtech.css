@@ -2277,7 +2277,7 @@ section
 
 .test_slider_container
 {
-	margin-top: 75px;
+	margin-top: 20px;
 }
 .testimonial_text
 {
@@ -2354,7 +2354,7 @@ section
 
 .elements_accordions
 {
-	margin-top: 80px;
+	margin-top: 20px;
 }
 .accordion_container
 {
@@ -2447,7 +2447,7 @@ section
 
 .cta
 {
-	background: #003679;
+	background: linear-gradient(to top right, #021329, #2051e6)
 }
 .cta_content
 {
