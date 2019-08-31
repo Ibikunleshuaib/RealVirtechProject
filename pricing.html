@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="styles/pricing.css">
 <link rel="stylesheet" type="text/css" href="styles/pricing_responsive.css">
 <link rel="stylesheet" type="text/css" href="stylePricing.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <!-- Favicon -->
  <link rel="icon" href="images/virtech_logo_transparent.png">
 </head>
@@ -275,7 +276,7 @@
             <div class="row justify-content-center">
 
                 <!-- Single Price Plan -->
-                <div class="col-12 col-md-6 col-lg-4" >
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
                     <div class="single-price-plan mb-100" style="background-color: #e8f1f8">
                         <div class="popular-tag">
                             <i class="icon_star"></i> save x% <i class="icon_star"></i>
@@ -304,7 +305,7 @@
                 </div>
 
                 <!-- Single Price Plan -->
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
                     <div class="single-price-plan active mb-100" style="background-color: #e8f1f8">
                         <!-- Popular Tag -->
                         <div class="popular-tag">
@@ -336,7 +337,7 @@
                 </div>
 
                 <!-- Single Price Plan -->
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
                     <div class="single-price-plan mb-100" style="background-color: #e8f1f8">
                         <div class="popular-tag">
                             <i class="icon_star"></i> save x% <i class="icon_star"></i>
@@ -378,17 +379,17 @@
     <section class="hami-call-to-action" style="background-color: #e8f1f8">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="fade-up">
                     <div class="cta-thumbnail pr-3 mb-100">
                         <img src="images/5.png" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="fade-up">
                     <div class="cta--content pl-3 mb-100">
                         <h2>Hire Experts for Your Web Project</h2>
                         <p>We’re incredibly proud of the great service we deliver here at VIRTECH and we have unshakable faith in our ability to deliver high performance websites, web applications and other web technology services that make a tangible impact on our clients’ bottom lines and we have proven we do over and over again. Get in touch now and we will make your online presence highly profitable.</p>
                         <!-- Button -->
-                        <a href="index.html#contact3" class="btn hami-btn mt-50">Get Free Quote</a>
+                        <a href="index.html#contact3" class="btn hami-btn mt-50" data-aos="fade-up">Get Free Quote</a>
                     </div>
                 </div>
             </div>
@@ -490,5 +491,12 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <script src="js/pricing.js"></script>
 <script src="js/virtech_home.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    	offset:200,
+    	duration: 600
+    });
+  </script>
 </body>
 </html>

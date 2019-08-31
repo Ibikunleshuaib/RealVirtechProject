@@ -14,6 +14,10 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/about.css">
 <link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!-- Favicon -->
+ <link rel="icon" href="images/virtech_logo_transparent.png">
 </head>
 <body>
 
@@ -102,7 +106,7 @@
 												</svg>
 											</a>
 										</li>
-										<li><a href="#">about us
+										<li class="active"><a href="#">about us
 											<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 												 width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
 												<g>
@@ -130,7 +134,7 @@
 												</svg>
 											</a>
 										</li>
-										<li class="active"><a href="pricing.html">Pricing
+										<li><a href="pricing.html">Pricing
 											<svg version="1.1" id="Layer_16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 												 width="9px" height="5px" viewBox="0 0 9 5" enable-background="new 0 0 9 5" xml:space="preserve">
 												<g>
@@ -263,7 +267,7 @@
 	<div class="features">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 features_col">
+				<div class="col-lg-6 features_col" data-aos="fade-up">
 					<div class="features_content">
 						<div class="section_title_container">
 							<div class="section_subtitle"></div>
@@ -278,12 +282,12 @@
 
 								<p>That means we’re dedicated to being the best at what we do, and to helping you do the same. If you’re looking to work with a tech company that delivers results now, with a clear eye on the future, get in touch. We’d love to hear from you.</p>
 							</div>
-							<div class="link_button features_button"><a href="index.html#contact3">Connect</a></div>
+							<div class="link_button features_button" data-aos="fade-up"><a href="index.html#contact3" >Connect</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="features_images clearfix">
+					<div class="features_images clearfix" data-aos="fade-up">
 						<div class="features_image_1"><img src="images/about_features_1.jpg" alt=""></div>
 						<div class="features_image_2"><img src="images/about_features_2.jpg" alt=""></div>
 					</div>
@@ -294,12 +298,12 @@
 
 	<!-- Info -->
 
-	<div class="info">
+	<div class="info" data-aos="fade-up">
 		<div class="info_background parallax-window" data-parallax="scroll" data-image-src="images/about_info.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="section_title_container">
+					<div class="section_title_container" data-aos="fade-up">
 						<div class="section_subtitle"></div>
 						<div class="section_title">Together our possibilities are exponential</div>
 						<div class="info_text">VIRTECH provides everything that you need to successfully launch, market and grow your internet presence from web design and development to Search Engine Optimization. Our focus is to “clearly deliver your message to your audience”.</div>
@@ -311,9 +315,9 @@
 				<!-- Milestone -->
 				<div class="col-lg-3 milestone_col">
 					<div class="milestone">
-						<div class="milestone_counter" data-end-value="5">0</div>
+						<div class="milestone_counter" data-end-value="1000" data-sign-after="+">0</div>
 						<div class="milestone_content">
-							<div class="milestone_title">years of experience</div>
+							<div class="milestone_title">recommendations</div>
 							<div class="milestone_subtitle"></div>
 						</div>
 					</div>
@@ -322,13 +326,14 @@
 				<!-- Milestone -->
 				<div class="col-lg-3 milestone_col">
 					<div class="milestone">
-						<div class="milestone_counter" data-end-value="17498">0</div>
+						<div class="milestone_counter" data-end-value="21M" data-sign-after="+">0</div>
 						<div class="milestone_content">
-							<div class="milestone_title">top advisors</div>
+							<div class="milestone_title">global reach</div>
 							<div class="milestone_subtitle"></div>
 						</div>
 					</div>
 				</div>
+				<div></div>
 
 				<!-- Milestone -->
 				<div class="col-lg-3 milestone_col">
@@ -341,17 +346,7 @@
 					</div>
 				</div>
 
-				<!-- Milestone -->
-				<div class="col-lg-3 milestone_col">
-					<div class="milestone">
-						<div class="milestone_counter" data-end-value="17">0</div>
-						<div class="milestone_content">
-							<div class="milestone_title">New Projects</div>
-							<div class="milestone_subtitle"></div>
-						</div>
-					</div>
-				</div>
-
+				
 			</div>
 		</div>
 	</div>
@@ -363,12 +358,12 @@
 			<div class="row">
 				<div class="col-lg-9">
 					<div class="cta_content d-flex flex-row align-items-center justify-content-start">
-						<div class="cta_text"><a href="#">Get in touch today!</a></div>
+						<div class="cta_text" data-aos="fade-up"><a href="#">Get in touch today!</a></div>
 					</div>
 				</div>
 				<div class="col-lg-3">
 					<div class="cta_button_container d-flex flex-row align-items-center justify-content-lg-end justify-content-start">
-						<div class="link_button cta_button"><a href="#">Connect</a></div>
+						<div class="link_button cta_button" data-aos="fade-up"><a href="index.html#contact3">Connect</a></div>
 					</div>
 				</div>
 			</div>
@@ -465,5 +460,12 @@
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/about_custom.js"></script>
 <script src="js/virtech_home.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+    AOS.init({
+    	offset:200,
+    	duration: 600
+    });
+ </script>
 </body>
 </html>

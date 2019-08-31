@@ -14,7 +14,10 @@
 <link rel="stylesheet" type="text/css" href="styles/pricing.css">
 <link rel="stylesheet" type="text/css" href="styles/pricing_responsive.css">
 <link rel="stylesheet" type="text/css" href="stylePricing.css">
+<link rel="stylesheet" type="text/css" href="styles/about.css">
+<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
 <link rel="icon" href="images/virtech_logo_transparent.png">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -465,56 +468,7 @@
                         <a  style="color: #1c66de" onclick="continueReading4()"  class="btn continue-btn" id="continueArticle4">Continue Reading <i class="arrow_right"></i></a>
                     </div>
 
-                    <script>
-                    	function continueReading(){
-
-                    	document.getElementById('article1').style.display = "block";
-                    	document.getElementById('showLess1').style.display = "block";
-                    	document.getElementById('continueArticle1').style.display = "none";
-                    	}
-
-                    	function showLess(){
-                    	document.getElementById('article1').style.display = "none";
-                    	document.getElementById('showLess1').style.display = "none";
-                    	document.getElementById('continueArticle1').style.display = "block";	
-                    	}
-                    	function continueReading2(){
-
-                    	document.getElementById('article2').style.display = "block";
-                    	document.getElementById('showLess2').style.display = "block";
-                    	document.getElementById('continueArticle2').style.display = "none";
-                    	}
-
-                    	function showLess2(){
-                    	document.getElementById('article2').style.display = "none";
-                    	document.getElementById('showLess2').style.display = "none";
-                    	document.getElementById('continueArticle2').style.display = "block";	
-                    	}
-                    	function continueReading3(){
-
-                    	document.getElementById('article3').style.display = "block";
-                    	document.getElementById('showLess3').style.display = "block";
-                    	document.getElementById('continueArticle3').style.display = "none";
-                    	}
-
-                    	function showLess3(){
-                    	document.getElementById('article3').style.display = "none";
-                    	document.getElementById('showLess3').style.display = "none";
-                    	document.getElementById('continueArticle3').style.display = "block";	
-                    	}
-                    	function continueReading4(){
-
-                    	document.getElementById('article4').style.display = "block";
-                    	document.getElementById('showLess4').style.display = "block";
-                    	document.getElementById('continueArticle4').style.display = "none";
-                    	}
-
-                    	function showLess4(){
-                    	document.getElementById('article4').style.display = "none";
-                    	document.getElementById('showLess4').style.display = "none";
-                    	document.getElementById('continueArticle4').style.display = "block";	
-                    	}
-                    </script>
+                    
                    
                     <!-- Pagination -->
                     <nav class="hami-pagination mb-50">
@@ -635,6 +589,23 @@
     </div>
     <!-- Blog Area End -->
 
+    <div class="cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="cta_content d-flex flex-row align-items-center justify-content-start">
+						<div class="cta_text" data-aos="fade-up"><a href="#">Get in touch today!</a></div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="cta_button_container d-flex flex-row align-items-center justify-content-lg-end justify-content-start">
+						<div class="link_button cta_button" data-aos="fade-up"><a href="index.html#contact3">Connect</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
    <!-- Footer -->
 
 	<footer class="footer">
@@ -719,6 +690,63 @@
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/virtech_home.js"></script>
 <script src="js/contact_custom.js"></script>
+<script>
+                    	function continueReading(){
+
+                    	document.getElementById('article1').style.display = "block";
+                    	document.getElementById('showLess1').style.display = "block";
+                    	document.getElementById('continueArticle1').style.display = "none";
+                    	}
+
+                    	function showLess(){
+                    	document.getElementById('article1').style.display = "none";
+                    	document.getElementById('showLess1').style.display = "none";
+                    	document.getElementById('continueArticle1').style.display = "block";	
+                    	}
+                    	function continueReading2(){
+
+                    	document.getElementById('article2').style.display = "block";
+                    	document.getElementById('showLess2').style.display = "block";
+                    	document.getElementById('continueArticle2').style.display = "none";
+                    	}
+
+                    	function showLess2(){
+                    	document.getElementById('article2').style.display = "none";
+                    	document.getElementById('showLess2').style.display = "none";
+                    	document.getElementById('continueArticle2').style.display = "block";	
+                    	}
+                    	function continueReading3(){
+
+                    	document.getElementById('article3').style.display = "block";
+                    	document.getElementById('showLess3').style.display = "block";
+                    	document.getElementById('continueArticle3').style.display = "none";
+                    	}
+
+                    	function showLess3(){
+                    	document.getElementById('article3').style.display = "none";
+                    	document.getElementById('showLess3').style.display = "none";
+                    	document.getElementById('continueArticle3').style.display = "block";	
+                    	}
+                    	function continueReading4(){
+
+                    	document.getElementById('article4').style.display = "block";
+                    	document.getElementById('showLess4').style.display = "block";
+                    	document.getElementById('continueArticle4').style.display = "none";
+                    	}
+
+                    	function showLess4(){
+                    	document.getElementById('article4').style.display = "none";
+                    	document.getElementById('showLess4').style.display = "none";
+                    	document.getElementById('continueArticle4').style.display = "block";	
+                    	}
+                    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+    AOS.init({
+    	offset:200,
+    	duration: 600
+    });
+ 	</script>
 
 </body>
 </html>
