@@ -51,7 +51,7 @@ a,
 a:active,
 a:focus,
 a:hover {
-  color: #303030;
+  color: #1c66de;
   text-decoration: none;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -2333,7 +2333,9 @@ input:focus {
   position: relative;
   z-index: 1;
   border-bottom: 1px solid #ebebeb;
-  padding-bottom: 50px; }
+  padding-bottom: 50px; 
+    text-align: justify;
+    text-justify: inter-word;}
   .single-blog-post .post-thumbnail {
     position: relative;
     z-index: 1;
@@ -2371,7 +2373,7 @@ input:focus {
       position: relative;
       z-index: 1;
       font-size: 14px;
-      color: #acacac;
+      color: #ffa800;
       display: inline-block;
       margin-right: 30px; }
       .single-blog-post .post-meta a:last-child {
@@ -2387,7 +2389,9 @@ input:focus {
   .single-blog-post p {
     margin-bottom: 0;
     line-height: 2.1;
-    font-weight: 500; }
+    font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word; }
 
 .hami-blog-details-area {
   position: relative;
